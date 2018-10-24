@@ -33,6 +33,21 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Pong!'
                 });
                 break;
+
+            case 'griffin':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'meyer!'
+                });
+                break;
+                
+            case 'paul':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'chen!'
+                });
+
+                break;
             // Just add any case commands if you want to..
         }
     }
