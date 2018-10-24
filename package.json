@@ -1,0 +1,11 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "bot.js",
+  "author": "Paul Chen",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^3.1.0"
+  }
+}
