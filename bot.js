@@ -48,6 +48,22 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 });
 
                 break;
+                
+              case 'omega':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'lul'
+                });
+
+                break;   
+                
+              case 'hello':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'howdy~'
+                });
+
+                break;   
             // Just add any case commands if you want to..
         }
     }
